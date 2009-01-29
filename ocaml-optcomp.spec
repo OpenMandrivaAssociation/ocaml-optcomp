@@ -8,8 +8,7 @@ Source0:        https://forge.ocamlcore.org/frs/download.php/111/optcomp-%{versi
 URL:            https://forge.ocamlcore.org/projects/optcomp/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 BuildRequires:  camlp4
-###BuildRequires:  ocaml-findlib
-BuildRequires:      findlib
+BuildRequires:  ocaml-findlib
 
 %description
 Optcomp is a camlp4 syntax extension which handles #if, #else, etc
