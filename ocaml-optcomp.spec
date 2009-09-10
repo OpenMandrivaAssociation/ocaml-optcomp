@@ -1,10 +1,10 @@
 Name:           ocaml-optcomp
-Version:        1.1
+Version:        1.2
 Release:        %mkrel 1
 Summary:        Optional compilation with cpp-like directives for OCaml
 License:        BSD3
 Group:          Development/Other
-Source0:        https://forge.ocamlcore.org/frs/download.php/111/optcomp-%{version}.tar.gz
+Source0:        https://forge.ocamlcore.org/frs/download.php/174/optcomp-%{version}.tar.gz
 URL:            https://forge.ocamlcore.org/projects/optcomp/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 BuildRequires:  camlp4
@@ -63,6 +63,7 @@ rm -rf %{buildroot}
 %dir %{_libdir}/ocaml/optcomp
 %{_libdir}/ocaml/optcomp/META
 %{_libdir}/ocaml/optcomp/*.cmo
+%{_libdir}/ocaml/optcomp/*.byte
 
 %files devel
 %doc LICENSE README VERSION CHANGES CHANGES.darcs
