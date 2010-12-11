@@ -1,6 +1,6 @@
 Name:           ocaml-optcomp
 Version:        1.2
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Optional compilation with cpp-like directives for OCaml
 License:        BSD3
 Group:          Development/Other
